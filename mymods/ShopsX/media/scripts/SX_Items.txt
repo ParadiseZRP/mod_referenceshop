@@ -1,0 +1,48 @@
+module Base {
+
+	item XCoin
+	{
+		Count	=	1,
+		Weight	=	0.01,
+		CanBeEquipped = FALSE,
+		Type	=	Normal,
+		DisplayName	=	X Coin,
+		Icon	=	XCoin,
+		WorldStaticModel = XCoin,
+	}
+
+	model XCoin 
+	{
+		mesh = WorldItems/Button,
+		texture = Item_XCoin,
+		scale = 1,
+	}
+	
+	item SCoin
+	{
+		Count	=	1,
+		Weight	=	0.01,
+		CanBeEquipped = FALSE,
+		Type	=	Normal,
+		DisplayName	=	S Coin,
+		Icon	=	SCoin,
+		WorldStaticModel = SCoin,
+	}
+
+	model SCoin 
+	{
+		mesh = WorldItems/Button,
+		texture = Item_SCoin,
+		scale = 1,
+	}
+	
+	item MedsPack
+	{
+		Count	=	1,
+		Weight	=	0.01,
+		Type	=	Normal,
+		DisplayName	= Meds pack,
+		Icon	=	Present4,
+	}
+
+}
